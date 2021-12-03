@@ -21,7 +21,12 @@ Proceso minicalculadora
 			 num_res = num_a * num_b;
 			 Escribir "La multiplicacion de ", num_a," y de ", num_b," es de ",num_res;
 		 sino
-			Escribir "Esa operación no esta permitida";
+			 si (opcion = 4) entonces
+				 num_res = num_a / num_b;
+				 Escribir "La division de ", num_a," y de ", num_b," es de ",num_res;
+			 sino
+				 Escribir "Esa operación no esta permitida";
+			 FinSi
 		 FinSi
      finsi
  finsi
