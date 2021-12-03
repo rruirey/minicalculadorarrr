@@ -6,7 +6,7 @@ Proceso minicalculadora
   leer num_a;
   Escribir "Introducir numero b";
   leer num_b;
-  Escribir "Introducir 1(suma), 2(resta), 3(multiplicacion)";
+  Escribir "Introducir 1(suma), 2(resta), 3(multiplicacion), 4(dividir)";
   leer opcion;
   
   si (opcion =1) entonces
